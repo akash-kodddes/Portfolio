@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    background-color: #141414;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+#heading{
+    margin-top: 100px;
+}
+
+#heading h1{
+    margin-left: 40px;
+    opacity: .6;
+    line-height: 1;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#heading #dev{
+    margin-left: 180px;
+}
+
+#heading h5{
+    margin-top: 20px;
+    margin-left: 1000px;
+}
+
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align: right;
+    font-size: 1vw;
+}
+
+#education{
+    margin-top: 120px;
+    padding-right: 20px;
+}
+
+#education h5{
+    text-transform:uppercase ;
+    text-align: right;
+    opacity: .6;
+}
+
+#footer{
+    display: flex;
+   gap: 30px;
+    margin-top: 40px;
+    padding: 20px 40px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+#pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+#hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 60px;
+    font-size: 2vw;
+}
+
+#paragraph{
+    text-align: center;
+    padding: 20px 45px;
+    font-size: 1.5vw;
+}
+
+#skills{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+#me{
+    padding-left: 150px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+ }
+
+ .card{
+    width: 500px;
+ }
+
+ .card img{
+    width: 200px;
+    float: left;
+  
+  
+    
+ }
+
+ .card h2{
+    margin-bottom: 30px;
+ }
+
+ .card p{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+ }
+
+#lastfootter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+#lastfootter a{
+    text-decoration: none;
+    color: #fff;
+}
